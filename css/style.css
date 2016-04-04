@@ -2,12 +2,14 @@
     width: 50px;
     height: 50px;
     background: red;
+    margin-bottom: 6px;
 
 }
 #rectangle {
     width: 100px;
     height: 50px;
     background: purple;
+    margin: 6px;
 }
 #circle {
     width: 50px;
@@ -16,6 +18,7 @@
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
+    margin-bottom: 6px;
 }
 #triangle {
     width: 0;
@@ -23,6 +26,7 @@
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     border-bottom: 50px solid blue;
+    margin-bottom: 6px;
 
 }
 #parallelogram {
@@ -32,6 +36,7 @@
     -moz-transform: skew(20deg);
     -o-transform: skew(20deg);
     background: green;
+    margin-bottom: 6px;
 }
 #trapezium {
     border-bottom: 100px solid white: ;
@@ -70,5 +75,5 @@
 
 
 #h1 {
-    font-size: 50px;
+    font-size: 15px;
 }
