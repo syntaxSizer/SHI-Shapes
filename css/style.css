@@ -1,54 +1,74 @@
 #square {
-	width: 100px;
-	height: 100px;
-	background: red;
+    width: 50px;
+    height: 50px;
+    background: red;
+
 }
 #rectangle {
-	width: 200px;
-	height: 100px;
-	background: red;
+    width: 100px;
+    height: 50px;
+    background: purple;
 }
-	#circle {
-	width: 100px;
-	height: 100px;
-	background: red;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+#circle {
+    width: 50px;
+    height: 50px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
 }
-
 #triangle {
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid red;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid blue;
+
 }
 #parallelogram {
-	width: 150px;
-	height: 100px;
-	-webkit-transform: skew(20deg);
-	   -moz-transform: skew(20deg);
-	     -o-transform: skew(20deg);
-	background: red;
+    width: 100px;
+    height: 50px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: green;
 }
-
+#trapezium {
+    border-bottom: 100px solid white: ;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 100px;
+}
 #star {
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid red;
-	position: relative;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid black;
+    position: relative;
 }
 #star:after {
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 100px solid red;
-	position: absolute;
-	content: "";
-	top: 30px;
-	left: -50px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid black;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+}
+.bg {
+    background-color: yellow;
+}
+#center {
+    margin-left: 45%;
+
+}
+
+
+
+#h1 {
+    font-size: 50px;
 }
