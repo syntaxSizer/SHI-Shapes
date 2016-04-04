@@ -1,6 +1,4 @@
 # SHI-Shapes
 
 ##SHAPES 
-
- HTML&CSS 
-
+created using HTML&CSS
