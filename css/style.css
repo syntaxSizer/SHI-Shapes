@@ -3,7 +3,6 @@
     height: 50px;
     background: red;
     margin-bottom: 6px;
-
 }
 #rectangle {
     width: 100px;
@@ -14,7 +13,7 @@
 #circle {
     width: 50px;
     height: 50px;
-    background: grey;
+    background: brown;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
@@ -27,7 +26,6 @@
     border-right: 25px solid transparent;
     border-bottom: 50px solid blue;
     margin-bottom: 6px;
-
 }
 #parallelogram {
     width: 100px;
@@ -69,11 +67,7 @@
 }
 #center {
     margin-left: 45%;
-
 }
-
-
-
 #h1 {
     font-size: 15px;
 }
